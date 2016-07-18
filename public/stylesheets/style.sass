@@ -1,0 +1,88 @@
+body
+  padding: 50px
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif
+
+a
+  color: #00B7FF
+
+.hTitle
+  font-family: 'Oswald', sans-serif
+  font-weight: 400
+  font-size: 14em
+
+.topRow
+  text-align: center
+  margin-bottom: 80px
+
+.cityForm
+  text-align: center
+
+.active
+  color: purple
+
+.thumbnail
+  padding: 0
+  background-size: cover !important
+  height: 200px
+
+.thumbnail .caption
+  overflow: hidden
+  color: white
+  position: relative
+  font-weight: bold
+  padding-top: 50px
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+
+.caption span
+  font-size: .7em
+  display: block
+
+.thumbnail>img
+  width: 100%
+  height: 100%
+
+.overlay
+  background: rgba(0,5,8,.7)
+  height: 100%
+  margin-bottom: 40px
+
+.caption h4
+  font-weight: bold
+  white-space: nowrap
+  position: relative
+  overflow: hidden
+  text-overflow: ellipsis
+
+  /* Starting transition */
+  left: 0%
+  width: 100%
+
+  /* Tweak 'till your heart's content */
+  -webkit-transition: left 3s, width 3s
+  -moz-transition: left 3s, width 3s
+  transition: left 2s, width 2s
+
+.caption:hover h4
+  left: -100%
+  width: 200%
+
+
+
+.centered-pills
+  text-align: center
+  margin-bottom: 20px
+.centered-pills ul.nav-pills
+  display: inline-block
+.centered-pills li
+  display: inline
+.centered-pills a
+  float: left
+
+.playBtn
+  border-radius: 20px
+  margin: 5px 10px
+
+.artistImage
+  padding: 10px
